@@ -1,0 +1,23 @@
+{
+  "extends": "airbnb-base",
+  "parser": "babel-eslint",
+  "rules": {
+    "import/default": 0,
+    "import/extensions": 0, // TODO
+    "import/first": 0, // TODO
+    "import/named": 0,
+    "import/namespace": 0,
+    "import/newline-after-import": 0, // TODO
+    "import/no-cycle": 2,
+    "import/no-duplicates": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-named-as-default-member": 0,
+    "import/no-named-as-default": 0,
+    "import/no-unresolved": 0,
+    "import/no-unused-modules": 2,
+    "import/prefer-default-export": 0
+  },
+  "plugins": [
+    "eslint-plugin-import"
+  ]
+}
